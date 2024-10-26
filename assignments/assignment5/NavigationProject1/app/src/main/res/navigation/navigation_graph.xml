@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation_graph.xml"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.navigationproject1.HomeFragment"
+        android:label="Home" />
+
+    <fragment
+        android:id="@+id/fragmentOne"
+        android:name="com.example.navigationproject1.FragmentOne"
+        android:label="Hello World 1" />
+
+    <fragment
+        android:id="@+id/fragmentTwo"
+        android:name="com.example.navigationproject1.FragmentTwo"
+        android:label="Hello World 2" />
+
+    <fragment
+        android:id="@+id/fragmentThree"
+        android:name="com.example.navigationproject1.FragmentThree"
+        android:label="Hello World 3" />
+</navigation>
